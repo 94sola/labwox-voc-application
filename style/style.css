@@ -493,21 +493,10 @@ td
     .about
     {
         justify-content: center;
-        padding: 8rem 6rem;
+        padding: 10rem 7rem;
         margin-top: 220px; 
     }
 
-    .services
-    {
-        justify-content: center;
-        padding: 3rem 6rem; 
-    }
-
-    .test
-    {
-        justify-content: center;
-        padding: 8rem 6rem; 
-    }
 }
 
 @media (max-width: 768px)
@@ -545,19 +534,9 @@ td
     .about
     {
         justify-content: center;
-        padding: 6rem 4rem; 
+        padding: 8.5rem 6.5rem; 
     }
 
-    .services
-    {
-        justify-content: center;
-        padding: 2rem 4rem; 
-    }
-    .test
-    {
-        justify-content: center;
-        padding: 6rem 4rem;  
-    }
 }
 
 @media (max-width: 450px)
@@ -588,19 +567,7 @@ td
     .about
     {
         justify-content: center;
-        padding: 4rem 2rem;
-    }
-
-    .services
-    {
-        justify-content: center;
-        padding: .5rem 2rem;
-    }
-
-    .test
-    {
-        justify-content: center;
-        padding: 4rem 2rem;
+        padding: 7rem 4rem;
     }
 
     .footer
