@@ -229,7 +229,7 @@ th
     border: 1px solid var(--labwox-black);
     color: var(--labwox-black);
     font-size: 1.3rem;
-    margin: .5rem;
+    margin: 15px;
     padding-left: 10px;
     margin: 15px;
 }
@@ -245,8 +245,8 @@ td
 
 .about .img-lab img
 {
-    width: 60%;
-    height: 60%;
+    width: 65%;
+    height: 65%;
     object-fit: contain;
     margin: .5rem;
 }
@@ -497,6 +497,13 @@ td
         margin-top: 180px; 
         font-size: 16px;
     }
+
+    table
+    {
+    margin: 10px;
+    padding: 28px;
+    font-size: 1.2rem;
+    }
 }
 
 @media (max-width: 768px)
@@ -537,6 +544,13 @@ td
         padding: 6rem 4rem;
         font-size: 10px; 
     }
+
+    table
+    {
+    margin: 10px;
+    padding: 28px;
+    font-size: 1.2rem;
+    }
 }
 
 @media (max-width: 450px)
@@ -567,8 +581,14 @@ td
     .about
     {
         justify-content: center;
-        padding: 5.5rem 3.5rem;
-        font-size: 10px;
+        padding: 2.2rem 1rem;
+        font-size: 1.4rem;
+        margin-top: 200px;
+    }
+
+    table
+    {
+        padding-right: 2rem;
     }
 
     .footer
